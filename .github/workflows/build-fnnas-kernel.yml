@@ -157,7 +157,7 @@ jobs:
 
           echo "status=success" >> ${GITHUB_OUTPUT}
 
-      - name: Compile the fnnas kernel [ ${{ inputs.dtbs_version }} ]
+      - name: Compile the fnnas kernel [ ${{ inputs.fnnas_base_version }} ]
         uses: ophub/fnnas@main
         if: ${{ steps.down.outputs.status == 'success' && !cancelled() }}
         with:
