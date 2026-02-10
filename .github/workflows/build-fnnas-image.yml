@@ -98,6 +98,7 @@ on:
           - rock-5-itx
           - rock5b
           - rock5c
+          - boca-tcn200
           - ruisen-box
           - s905
           - s905-beelink-mini
